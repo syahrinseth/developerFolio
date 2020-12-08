@@ -8,7 +8,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Syahrin Seth",
-  title: "Hi all, I'm Syahrin",
+  title: "Hi, I'm Syahrin",
   subTitle: emoji("A Fullstack Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / VueJs / Nodejs / Flutter / Laravel / NuxtJs / PHP and some other cool libraries and frameworks."),
   resumeLink: ""
 };
@@ -21,11 +21,12 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/syahrinseth/",
   gmail: "syahrinsethservices@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/syahrinseth",
+  // facebook: "https://www.facebook.com/syahrinseth",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
   youtube: "https://www.youtube.com/channel/UCcmzFrj2rv8nO8RY07rov8Q?view_as=subscriber",
-  instagram: "https://www.instagram.com/syahrinseth/"
+  instagram: "https://www.instagram.com/syahrinseth/",
+  twitter: "https://www.twitter.com/syahrinseth"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -33,10 +34,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Develop Mobile Applications for iOS & Android with Flutter framework"),
+    emoji("⚡ Develop Backend Web Applications / API with Laravel or Lumen framework"),
     emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
@@ -52,10 +55,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -65,12 +68,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "npm",
@@ -79,6 +90,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "digital-ocean",
+      fontAwesomeClassname: "fab fa-digital-ocean"
     },
     {
       skillName: "aws",
@@ -93,9 +108,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
+    },
+    {
+      skillName: "r-language",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ]
 };
 
@@ -134,17 +157,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Frontend / Design",  //Insert stack or technology you have experience in
+      progressPercentage: "50%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
       progressPercentage: "60%"
-    }
+    },
+    {
+      Stack: "Dev Ops",
+      progressPercentage: "45%"
+    },
   ]
 };
 
@@ -195,7 +222,7 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -296,15 +323,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+60127042807",
+  email_address: "syahrinsethservices@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : "syahrinseth"//Replace "twitter" with your twitter username without @
 
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

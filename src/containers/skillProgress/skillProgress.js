@@ -2,6 +2,7 @@ import React from "react";
 import "./Progress.css";
 import { techStack } from "../../portfolio";
 import { Fade } from "react-reveal";
+import emoji from "react-easy-emoji";
 
 export default function StackProgress() {
     if(techStack.viewSkillBars){
@@ -10,7 +11,7 @@ export default function StackProgress() {
             <div className="skills-container">
 
                 <div className="skills-bar">
-                    <h1 className="skills-heading">Proficiency</h1>
+                    <h1 className="skills-heading">Proficiency {emoji("🚀")}</h1>
                     {techStack.experience.map((exp) => {
                         const progressStyle = {
                             width: exp.progressPercentage

@@ -3,6 +3,7 @@ import "./StartupProjects.css";
 import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import emoji from "react-easy-emoji";
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
@@ -14,7 +15,7 @@ export default function StartupProject() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+          <h1 className="skills-heading">{bigProjects.title} {emoji("🖥")}</h1>
           <p
             className={
               isDark

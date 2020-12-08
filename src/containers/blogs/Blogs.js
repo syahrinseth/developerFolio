@@ -4,13 +4,14 @@ import BlogCard from "../../components/blogCard/BlogCard";
 import { blogSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import emoji from "react-easy-emoji";
 export default function Blogs() {
   const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="blogs">
         <div className="blog-header">
-          <h1 className="blog-header-text">{blogSection.title}</h1>
+          <h1 className="blog-header-text">{emoji(blogSection.title + " 💻")}</h1>
           <p
             className={
               isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"
