@@ -7,23 +7,25 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Syahrin Seth",
+  title: "Hi all, I'm Syahrin",
+  subTitle: emoji("A Fullstack Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / VueJs / Nodejs / Flutter / Laravel / NuxtJs / PHP and some other cool libraries and frameworks."),
+  resumeLink: ""
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/syahrinseth",
+  linkedin: "https://www.linkedin.com/in/syahrinseth/",
+  gmail: "syahrinsethservices@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/syahrinseth",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  youtube: "https://www.youtube.com/channel/UCcmzFrj2rv8nO8RY07rov8Q?view_as=subscriber",
+  instagram: "https://www.instagram.com/syahrinseth/"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -185,7 +187,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "syahrinseth", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 

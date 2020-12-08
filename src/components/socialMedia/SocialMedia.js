@@ -78,6 +78,14 @@ export default function socialMedia() {
       :
       null}
 
+      {socialMediaLinks.youtube ? 
+      (<a href={socialMediaLinks.youtube} className="icon-button google" target="_blank">
+        <i className="fab fa-youtube"></i>
+        <span></span>
+      </a>)
+      :
+      null}
+
     </div>
   );
 }
