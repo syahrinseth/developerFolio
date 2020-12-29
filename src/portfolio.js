@@ -128,24 +128,23 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Management and Science University",
+      logo: require("./assets/images/msu.jpg"),
+      subHeader: "Bachelor in Bioinformatics (Hons)",
+      duration: "July 2014 - July 2017",
+      desc: "Participated in the research of XXX and published 1 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Participated in the JBK Hackathon 2017 and achieved fourth place for developing an Auction based Web Application in 24 hours."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "MSU Collage (PTPL Shah Alam)",
+      logo: require("./assets/images/msu.jpg"),
+      subHeader: "Diploma in Medical Laboratory Technology",
+      duration: "2010 - 2013",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        
       ]
     }
   ]
@@ -182,29 +181,38 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "System Analyst",
+      company: "MZR Global",
+      companylogo: require("./assets/images/mzrLogo.png"),
+      date: "November 2019 – Present",
+      desc: "As a System Analyst in the company, my responsibility is to use analysis and design techniques to solve business problems using information technology. I also develop web and mobile applications to automate most mundane tasks to improve efficiency.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Indie Hacker",
+      company: "Syahrin Seth Services",
+      companylogo: require("./assets/images/syahrinSethServicesLogo.png"),
+      date: "October 2019 - Present",
+      desc: "As an Indie Hacker, my job scope is as follows:",
+      descBullets: [
+        "Freelance Full-stack Engineer",
+        "Freelance Dev Ops Engineer"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full-stack Web Developer",
+      company: "Phenotech Sdn Bhd",
+      companylogo: require("./assets/images/pheontechLogo.png"),
+      date: "July 2017 – October 2019",
+      desc: "As a Web Developer in the company, My responsibility is to develops web applications for clients."
+    },
+    {
+      role: "Bioinformaticians Intern",
+      company: "University Of Malaya",
+      companylogo: require("./assets/images/umLogo.png"),
+      date: "February 2017 – July 2017",
+      desc: ""
     },
   ]
 };
@@ -226,13 +234,21 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/elmezaHomeLogo.png"),
+      link: "http://elmezahome.com/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+      image: require("./assets/images/kindygoLogo.png"),
+      link: "http://kindygo.com/"
+    },
+    {
+      image: require("./assets/images/thinkMediaLogo.png"),
+      link: "http://thinkmedia.com.my/"
+    },
+    {
+      image: require("./assets/images/gePowerLogo.png"),
+      link: "http://geossbilling.syahrinseth.com/"
+    },
   ]
 };
 
@@ -282,14 +298,14 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://blog.syahrinseth.com/create-your-own-vpn/",
+      title: "Create your own VPN",
+      description: "VPN stands for Virtual Private Network, it let you secure your privacy by routing your internet traffic through an encrypted tunnel to a distant server. The problem with the VPN services out there is we didn’t know what these VPN Services companies do to your personal information and your web traffic data."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://blog.syahrinseth.com/10-things-every-junior-web-developer-should-know/",
+      title: "10 Things Every Junior Web Developer Should Know",
+      description: "I often find myself learning new technology every once in a while to keep up with the ever fast phase of web technology every year. Technology changes fast, and one of the best ways to keep up is to be comfortable with learning new things. But as for entry-level web developer, conquering basic technology first is the way to go. Here is the list of technology that needed to learn as an entry-level web developer."
     }
   ]
 };
